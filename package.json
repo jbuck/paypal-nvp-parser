@@ -1,0 +1,24 @@
+{
+  "name": "paypal-nvp-parser",
+  "version": "0.0.0",
+  "description": "Parse data from Paypal's NVP API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbuck/paypal-nvp-parser.git"
+  },
+  "keywords": [
+    "paypal",
+    "nvp",
+    "api"
+  ],
+  "author": "Jon Buckley <jon@jbuckley.ca>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jbuck/paypal-nvp-parser/issues"
+  },
+  "homepage": "https://github.com/jbuck/paypal-nvp-parser"
+}
