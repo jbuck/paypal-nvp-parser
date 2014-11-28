@@ -1,5 +1,5 @@
 var querystring = require("querystring");
-var list = /^L_(\w+)(\d+)$/;
+var list = /L_([A-Za-z]+)(\d+)/;
 
 module.exports = function(input) {
   var data;
