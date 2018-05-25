@@ -6,7 +6,9 @@ module.exports = function(input) {
   var output = {};
 
   if (typeof input === "string") {
-    data = querystring.parse(input);
+    // Parse without limits on the maximum number of keys, see:
+    // https://nodejs.org/api/querystring.html#querystring_querystring_parse_str_sep_eq_options
+    data = querystring.parse(input, null, null, { maxKeys: 0 });
   } else {
     data = input;
   }
